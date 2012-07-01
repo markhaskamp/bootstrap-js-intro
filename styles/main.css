@@ -1,0 +1,41 @@
+/* colorschemedesigner seed color: #5ccccc */
+body {
+  color: #23428a;
+}
+
+#page-title {
+  text-align: center;
+  color: white;
+  background-color: #23428a;
+  padding: 15px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border-radius: 3px;
+
+}
+
+.content {
+  border: 1px solid #23428a;
+  padding: 3px;
+  padding-left: 6px;
+  margin-bottom: 3px;
+
+  background-color: #ffe5b2;
+  color: #23428a;
+  border-radius: 5px;
+}
+
+.left-menu-big {
+  background-color: #ffd073;
+  border-radius: 3px;
+  text-align: center;
+  padding: 3px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.left-menu-big:hover {
+  cursor: pointer;
+  /* color: #a0e6e6; */
+  background-color: #bfa570;
+}
+
