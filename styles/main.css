@@ -53,3 +53,11 @@ body {
   cursor: pointer;
   background-color: #bfa570;
 }
+
+.more-link {
+  color: #5ccccc;
+  font-style: italic;
+}
+.more-link:hover {
+  cursor: pointer;
+}
