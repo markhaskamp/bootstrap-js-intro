@@ -1,14 +1,20 @@
 $(document).ready(function() {
 
   $('body').on('click', '.more-link', function(event) {
-    $more_link = $(event.target);
-    $more_link.addClass('visible-desktop');
-    $more_link.next().removeClass('visible-desktop');
+    show_more_content($(event.target));
   });
 
   $('body').on('click', '.less-link', function(event) {
-    $less_link = $(event.target);
-    $less_link.parent().addClass('visible-desktop');
-    $less_link.parent().prev().removeClass('visible-desktop');
+    hide_more_content($(event.target));
   });
+
+  function show_more_content($ele) {
+    $ele.addClass('visible-desktop');
+    $ele.next().removeClass('visible-desktop');
+  }
+
+  function hide_more_content($ele) {
+    $ele.parent().addClass('visible-desktop');
+    $ele.parent().prev().removeClass('visible-desktop');
+  }
 });
