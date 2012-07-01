@@ -61,3 +61,10 @@ body {
 .more-link:hover {
   cursor: pointer;
 }
+.less-link {
+  color: #5ccccc;
+  font-style: italic;
+}
+.less-link:hover {
+  cursor: pointer;
+}
